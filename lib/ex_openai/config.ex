@@ -6,7 +6,9 @@ defmodule ExOpenAI.Config do
 
   use GenServer
 
-  @openai_url "https://api.openai.com/v1"
+  # @openai_url "https://api.openai.com/v1"
+
+  @openai_url "https://api.fireworks.ai/inference/v1/chat/completions"
 
   @config_keys [
     :api_key,
